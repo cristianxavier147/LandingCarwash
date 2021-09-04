@@ -1,0 +1,650 @@
+/* Limpiando css */
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "system-ui";
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  /* width: 100%; */
+  height: 65px;
+  background-color: #0080ad;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: white;
+}
+
+.horario {
+  margin-left: 5%;
+}
+
+.registro {
+  margin-right: 5%;
+}
+
+.registro p {
+  float: left;
+  margin-right: 20px;
+}
+
+/* navegador */
+.menu {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  cursor: pointer;
+  opacity: 1;
+  margin-left: 6%;
+}
+
+.menu_items {
+  display: flex;
+  list-style: none;
+  margin-right: 6%;
+}
+
+.menu_items li {
+  margin: 0 5px;
+}
+
+.menu_items li a {
+  text-decoration: none;
+  padding: 0px 3px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.btn-menu {
+  font-size: 25px;
+  margin-right: 30px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+ul.show {
+  top: 65px;
+}
+
+/* imagen */
+
+.welcome {
+  background-image: url(../img/Grupo\ 22.png);
+  margin-top: -0.1%;
+  background-position: center;
+  width: auto;
+  height: 30rem;
+}
+
+.soporte {
+  padding-top: 5rem;
+  text-align: justify;
+  width: 26%;
+  margin-left: 20%;
+  color: white;
+}
+
+.soporte h1 {
+  font-size: 65px;
+  margin-bottom: 10px;
+}
+
+.soporte p {
+  font-size: 16px;
+}
+
+/* SECCION CARDS */
+
+.main-cards {
+  display: flex;
+}
+
+/* CARD ALL */
+.card {
+  box-shadow: 0px 0px 4px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem 0 5rem 6%;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 13px;
+}
+
+.card img {
+  margin-top: 65px;
+  margin-bottom: 50px;
+}
+
+.card h2 {
+  color: #0080ad;
+  font-size: 18px;
+}
+
+.card p {
+  color: #3d3d3d;
+  margin: 30px 52px 52px 52px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+/* ticket */
+
+.ticket {
+  color: #ffffff;
+  background-color: #141414;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.ticket-in {
+  width: 85%;
+  margin: auto;
+}
+
+.ticket-in h2 {
+  border-bottom: 1px solid #3d3d3d;
+  font-size: 50px;
+  border-bottom: 0px 0px 4px;
+  padding-bottom: 10px;
+}
+
+.ticket-in p {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* formulario */
+
+.formulario {
+  display: flex;
+  justify-content: space-between;
+  height: 550px;
+}
+
+.form-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.form-left label {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.form-left select {
+  height: 41px;
+}
+
+.form-left input {
+  height: 41px;
+}
+
+/* form-right */
+
+.form-right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.form-right label {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.form-right #pais {
+  height: 41px;
+}
+
+.form-right input {
+  height: 41px;
+}
+
+.form-right button {
+  background-color: #0080ad;
+  color: #ffffff;
+  width: 165px;
+  height: 38px;
+  margin-top: 43px;
+  margin-bottom: 30px;
+}
+
+/* comunicate */
+
+.comunicate {
+  display: flex;
+  background-image: url(../img/Grupo\ 21.png);
+  background-position: 26%;
+  justify-content: flex-end;
+  width: 100%;
+  height: 45rem;
+}
+
+.comunicate-in {
+  background-color: #ffffff;
+  margin-top: 10rem;
+  margin-right: 3em;
+  width: 45%;
+  height: 350px;
+  padding: 40px;
+}
+
+.datos {
+  display: flex;
+  margin-top: 1.4rem;
+}
+
+.datos2 h2 {
+  font-size: 19px;
+}
+
+.datos2 p {
+  font-size: 12px;
+  margin-top: 10px;
+  width: 100%;
+  color: #4c4c4c;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #000000;
+  color: white;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.trabaja {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trabaja img {
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.trabaja h2 {
+  font-size: 22px;
+}
+
+.trabaja button {
+  border: 1px solid #ffffff;
+  width: 10%;
+  height: 65px;
+  margin-right: 7rem;
+  background-color: black;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.informacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 1fr;
+}
+
+.contactanos {
+  margin-left: 4rem;
+  margin-top: 8rem;
+}
+
+.contactanos h3 {
+  font-size: 30px;
+}
+
+.contactanos p {
+  font-size: 18px;
+}
+
+.contactanos p:nth-child(even) {
+  margin-top: 20px;
+}
+
+.informado {
+  width: 80%;
+  /* margin-left: 15%; */
+  margin-top: 144px;
+}
+
+.informado h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.informado p {
+  margin-bottom: 12px;
+}
+
+.informado input {
+  width: 55%;
+  height: 50px;
+}
+
+.informado button {
+  border: 1px solid #ffffff;
+  width: 30%;
+  height: 65px;
+  background-color: black;
+  color: #ffffff;
+  margin-left: 14%;
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  font-size: 13px;
+}
+
+/* links finales */
+
+.links {
+  margin-right: 4%;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.links ul li a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 952px) {
+  ul.show {
+    top: 130px;
+  }
+
+  .menu_items li a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 858px) {
+  .menu {
+    height: 65px;
+  }
+
+  .btn-menu {
+    display: inline-flex;
+  }
+
+  .menu_items {
+    position: fixed;
+    width: 100%;
+    height: calc(100% - 65px);
+    background: #414141;
+    top: -100%;
+    text-align: center;
+    transition: all 0.4s;
+    flex-direction: column;
+  }
+
+  .menu_items li {
+    margin: 30px 0 0;
+    line-height: 30px;
+  }
+
+  .menu_items li:hover {
+    background: none;
+  }
+
+  .menu_items li a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .menu_items li a:hover {
+    color: #0080ad;
+  }
+
+  .card h2 {
+    font-size: 14px;
+  }
+
+  .card p {
+    font-size: 13px;
+    margin: 30px 20px 52px 20px;
+  }
+
+  .informado button {
+    width: 25%;
+  }
+
+  .copyright p {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 738px) {
+  .card p {
+    margin: 30px 10px 30px 10px;
+  }
+
+  .comunicate-in {
+    padding: 20px;
+  }
+
+  .informado button {
+    width: 30%;
+    margin-left: 8%;
+  }
+
+  .informado h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 646px) {
+  .header {
+    font-size: 11px;
+  }
+
+  .card img {
+    width: 6rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .card h2 {
+    font-size: 12px;
+  }
+
+  .card p {
+    margin: 15px 10px 10px 10px;
+  }
+
+  .comunicate-in {
+    padding: 10px;
+  }
+
+  .trabaja img {
+    margin-left: 2rem;
+  }
+
+  .trabaja button {
+    margin-right: 3rem;
+  }
+
+  .informado h2 {
+    font-size: 20px;
+  }
+
+  .informado button {
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .soporte h1 {
+    font-size: 50px;
+  }
+
+  .soporte p {
+    font-size: 13px;
+  }
+
+  .card {
+    width: 30%;
+    margin: 2rem 0 2rem 2%;
+  }
+
+  .card img {
+    width: 4rem;
+  }
+
+  .card h2 {
+    font-size: 10px;
+  }
+
+  .card p {
+    font-size: 11px;
+  }
+
+  .comunicate-in {
+    width: 70%;
+  }
+
+  .footer {
+    padding-top: 2rem;
+  }
+
+  .trabaja img {
+    width: 7rem;
+  }
+
+  .trabaja h2 {
+    font-size: 18px;
+  }
+
+  .trabaja button {
+    margin-right: 2rem;
+    width: 15%;
+  }
+
+  .contactanos {
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+  .informado {
+    margin-top: 4rem;
+    width: 90%;
+  }
+
+  .informado button {
+    margin-left: 1%;
+    width: 36%;
+    height: 50px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .welcome {
+    background-position: 15%;
+  }
+  .soporte {
+    width: 55%;
+  }
+
+  .ticket {
+    padding-bottom: 38rem;
+  }
+
+  .main-cards {
+    display: block;
+  }
+
+  .card {
+    width: 85%;
+    margin: 2rem 0 2rem 7%;
+  }
+
+  .formulario {
+    display: block;
+  }
+
+  .form-left {
+    width: auto;
+  }
+
+  .form-right {
+    width: auto;
+  }
+
+  .comunicate-in {
+    width: 90%;
+    margin-top: 8rem;
+    margin-right: 1em;
+  }
+
+  .trabaja {
+    display: block;
+    text-align: center;
+  }
+
+  .trabaja img {
+    width: 10rem;
+  }
+
+  .trabaja h2 {
+    font-size: 20px;
+    margin-top: 2rem;
+  }
+
+  .trabaja button {
+    margin-right: 0;
+    width: 40%;
+    margin-top: 2rem;
+  }
+
+  .informacion {
+    display: block;
+    text-align: center;
+  }
+
+  .contactanos {
+    margin-left: 0;
+  }
+
+  .informado {
+    width: auto;
+  }
+
+  .copyright {
+    margin-top: 2rem;
+  }
+}
